@@ -1,0 +1,2 @@
+2021-01-04 19:50:23,460: INFO: Server_connection Line:23 the user try to connect to the server
+2021-01-04 19:50:37,817: CRITICAL: Server_connection Line:91 The logging information was not correct

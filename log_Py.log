@@ -1,0 +1,169 @@
+INFO:root:Rhe user try to connect to the server
+INFO:root:Rhe user try to connect to the server
+INFO:root:Help function was activated
+2020-12-30 16:46:57,048: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2020-12-30 16:47:04,907: CRITICAL: Server_connection Line:93 The logging information was not correct
+2020-12-31 14:33:10,190: INFO: Server_connection Line:7 Rhe user try to connect to the server
+2020-12-31 14:33:56,741: INFO: Server_connection Line:7 Rhe user try to connect to the server
+2020-12-31 14:34:06,046: ERROR: Database_connection Line:73 An error with number input
+2020-12-31 14:34:30,584: ERROR: Database_connection Line:73 An error with number input
+2020-12-31 14:35:51,653: INFO: Server_connection Line:7 Rhe user try to connect to the server
+2020-12-31 14:43:56,868: INFO: Server_connection Line:7 Rhe user try to connect to the server
+2020-12-31 14:43:56,928: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:56,962: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:56,993: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,027: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,059: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,093: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,130: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,170: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,211: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,246: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,280: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,317: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,356: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,391: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,428: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,461: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,491: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,524: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,561: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,598: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,634: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,669: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,700: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,734: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,768: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,807: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,843: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,877: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,908: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,942: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:57,977: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,015: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,052: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,087: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,119: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,153: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,193: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,229: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,273: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,306: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,340: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,374: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,410: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,447: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,483: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,515: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,549: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,581: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,619: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,657: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,695: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,729: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,761: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,794: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,829: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,867: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,905: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,938: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:58,970: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,004: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,039: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,076: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,118: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,153: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,183: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,217: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,254: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,289: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,327: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,361: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,393: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,425: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,463: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,497: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,533: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,568: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,600: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,634: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,672: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,708: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,744: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,777: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,809: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,844: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,880: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,920: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,956: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:43:59,991: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,033: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,070: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,111: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,157: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,196: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,233: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,277: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,321: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,363: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,403: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,445: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,487: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,532: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,573: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,616: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,659: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,704: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,746: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,788: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,833: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,874: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,909: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:00,952: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:01,014: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:01,056: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:44:01,097: CRITICAL: Server_connection Line:45 The logging information was not correct
+2020-12-31 14:45:00,591: INFO: Server_connection Line:7 Rhe user try to connect to the server
+2020-12-31 14:45:06,930: ERROR: Database_connection Line:73 An error with number input
+2020-12-31 14:46:53,093: ERROR: Database_connection Line:73 An error with number input
+2020-12-31 14:47:49,141: INFO: Server_connection Line:7 Rhe user try to connect to the server
+2020-12-31 14:47:59,525: ERROR: Database_connection Line:81 An error with number input
+2021-01-03 19:05:38,878: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:11:32,312: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:13:31,858: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:13:55,404: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:15:43,433: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:16:02,923: ERROR: Server_connection Line:84 An error with number input
+2021-01-03 19:23:05,070: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:27:16,802: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:28:34,386: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:30:36,785: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:32:26,019: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:35:14,810: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:35:51,326: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:38:17,763: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:39:56,800: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:43:01,596: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:47:02,368: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2021-01-03 19:59:32,694: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-03 20:03:21,516: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-03 20:03:35,868: CRITICAL: Server_connection Line:87 The logging information was not correct
+2021-01-03 20:10:58,256: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-03 20:11:18,527: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-03 20:16:01,468: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-03 20:17:24,901: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-04 19:25:45,209: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-04 19:25:58,941: CRITICAL: Server_connection Line:91 The logging information was not correct
+2021-01-04 19:26:27,447: INFO: Server_connection Line:75 User has tried to connect with a database.
+2021-01-04 19:26:28,448: INFO: Server_connection Line:87 User was connect with a: schoolproject
+2021-01-04 19:26:52,984: INFO: table_make Line:117 User tried to make a new table: pre
+2021-01-04 19:27:23,481: INFO: table_make Line:117 User tried to make a new table: pre
+2021-01-04 19:27:35,922: INFO: table_delete Line:137 User tried to delete a table: dre
+2021-01-04 19:28:29,614: INFO: columns_make Line:169 User tried to make a new column: salint(30) in the table: pre
+2021-01-04 19:30:08,141: INFO: columns_drop Line:183 User tried to delete a column: id in the table: pre
+2021-01-04 19:30:41,268: INFO: addition_to_table Line:225 User added some infos to: pre
+2021-01-04 19:31:32,282: INFO: addition_to_table Line:225 User added some infos to: pre
+2021-01-04 19:36:03,729: INFO: Server_connection Line:23 Rhe user try to connect to the server
+2021-01-04 19:36:19,362: INFO: Server_connection Line:75 User has tried to connect with a database.
+2021-01-04 19:36:20,363: INFO: Server_connection Line:87 User was connect with a: schoolproject
+2021-01-04 19:38:11,863: INFO: help_function Line:18 Help function was activated
