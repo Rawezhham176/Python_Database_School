@@ -1,0 +1,6 @@
+2020-12-30 16:55:53,387: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2020-12-30 16:56:14,776: ERROR: Server_connection Line:84 An error with number input
+2020-12-30 16:56:32,749: INFO: help_function Line:24 Help function was activated
+2020-12-30 17:01:48,218: INFO: Server_connection Line:29 Rhe user try to connect to the server
+2020-12-30 17:02:30,406: CRITICAL: Server_connection Line:93 The logging information was not correct
+2020-12-30 17:02:38,584: CRITICAL: Server_connection Line:93 The logging information was not correct
