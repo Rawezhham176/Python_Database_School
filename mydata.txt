@@ -1,0 +1,16 @@
+The table employeeH has: 
+The table employeeH has: 
+1,,
+,rawezh,
+The table employeeH has: 
+1,,
+,rawezh,
+The table employeeH has: 
+1,jack,
+,rawezh,
+The table employeeH has: 
+1,jack,3500
+,rawezh,
+The table employeefrom database school_project has this information: 
+1,jack,3500
+,rawezh,

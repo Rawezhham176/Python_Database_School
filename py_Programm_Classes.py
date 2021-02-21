@@ -25,7 +25,7 @@ def help_function():
 
 
 def Server_connection():
-    print("Please enter the connection data:")
+    print("Please enter the connection data or exit for end the program:")
     logging.info("The user try to connect to the server")
 
     global connection
@@ -33,11 +33,14 @@ def Server_connection():
     while condition:
         try:
             host = input("Please input the host name: ")
+            if (host == "exit"):
+                end_fun()
             user = input("Please input the user name: ")
             password = input("Please input the password: ")
             # database = input("Please input the database name: ")
 
             stop_to_repeat = True
+
 
             while stop_to_repeat:
 
@@ -69,6 +72,7 @@ def Server_connection():
                                 sqlform = "CREATE DATABASE " + name_of_databse
                                 mycursor.execute(sqlform)
                             else:
+                                global database
                                 database = input("Please enter the database name: ")
                                 connection = mysql.connector.connect(host=host,
                                                                      user=user,
@@ -288,7 +292,7 @@ def show_data():
 
 def save_data():
     with open("mydata.txt", "a") as file:
-        file.write("The table " + tableNS + "H has: \n")
+        file.write("The table " + tableNS + "from database " + database + " has this information: \n")
         for row in res:
             csv.writer(file).writerow(row)
 
