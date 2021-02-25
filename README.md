@@ -9,4 +9,4 @@ How to execute the program:
    2. For windows you can simply dpuble click on py_Main
    3. For Linux open a terminal in the same folder and write "./py_Main"
     
-I hope you enjoy the program :)
+I hope you can enjoy the program :)
