@@ -1,0 +1,15 @@
+The table employeefrom database school_project has this information: 
+1,jack,3500
+,rawezh,
+The table new_tabfrom database school_project has this information: 
+1,
+,example
+The table new_tabfrom database school_project has this information: 
+1,Ami
+,example
+The table new_tabfrom database school_project has this information: 
+1,Ami
+,example
+The table new_tabfrom database school_project has this information: 
+The table new_tabfrom database school_project has this information: 
+1,Ami

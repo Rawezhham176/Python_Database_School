@@ -25,76 +25,92 @@ def help_function():
 
 
 def Server_connection():
-    print("Please enter the connection data or exit for end the program:")
-    logging.info("The user try to connect to the server")
-
     global connection
     condition = True
-    while condition:
-        try:
-            host = input("Please input the host name: ")
-            if (host == "exit"):
-                end_fun()
-            user = input("Please input the user name: ")
-            password = input("Please input the password: ")
-            # database = input("Please input the database name: ")
+    c = input("Do you want to connect to a server? Please answer with yes or anything for no: ")
+    if c.casefold() == "yes":
+        while condition:
+            try:
+                print("Please enter the connection data.")
+                logging.info("The user try to connect to the server")
 
-            stop_to_repeat = True
+                host = input("Please input the host name or exit to end the program: ")
+                if host.casefold() == "exit":
+                    condition = False
+                    end_fun()
+                    return False
+                else:
+                    user = input("Please input the user name or exit to end the program: ")
+                    if user.casefold() == "exit":
+                        condition = False
+                        end_fun()
+                        return False
+                    else:
+                        password = input("Please input the password or exit to end the program: ")
+                        if password.casefold() == "exit":
+                            condition = False
+                            end_fun()
+                            return False
+                        else:
+                            stop_to_repeat = True
 
+                            while stop_to_repeat:
 
-            while stop_to_repeat:
-
-                connection = mysql.connector.connect(host=host,
-                                                     user=user,
-                                                     password=password,
-                                                     )
-                global mycursor
-                mycursor = connection.cursor(buffered=True)
-
-                print("")
-                mycursor.execute("SHOW DATABASES")
-                print("Databases: ")
-                for db in mycursor:
-                    print(db)
-
-                print("")
-
-                num = True
-                while num:
-                    try:
-                        print("1. Connect with a database\n"
-                              "2. Make a new database")
-                        answer = int(input("Please answer with 1 or 2: "))
-                        if answer == 1 or answer == 2:
-                            if answer == 2:
-                                name_of_databse = input("Name of the new database: ")
-
-                                sqlform = "CREATE DATABASE " + name_of_databse
-                                mycursor.execute(sqlform)
-                            else:
-                                global database
-                                database = input("Please enter the database name: ")
                                 connection = mysql.connector.connect(host=host,
                                                                      user=user,
                                                                      password=password,
-                                                                     database=database)
+                                                                     )
+                                global mycursor
                                 mycursor = connection.cursor(buffered=True)
-                                stop_to_repeat = False
 
-                            num = False
+                                print("")
+                                mycursor.execute("SHOW DATABASES")
+                                print("Databases: ")
+                                for db in mycursor:
+                                    print(db)
 
-                    except:
-                        print("Please answer with a number 1 or 2!")
-                        logging.error("An error with number input")
+                                print("")
 
-            if (connection):
-                print("Connection successful")
-                condition = False
-                time_fun(1)
+                                num = True
+                                while num:
+                                    try:
+                                        print("1. Connect with a database\n"
+                                              "2. Make a new database")
+                                        answer = int(input("Please answer with 1 or 2: "))
+                                        if answer == 1 or answer == 2:
+                                            if answer == 2:
+                                                name_of_databse = input("Name of the new database: ")
 
-        except:
-            print("Not connected")
-            logging.critical("The logging information was not correct")
+                                                sqlform = "CREATE DATABASE " + name_of_databse
+                                                mycursor.execute(sqlform)
+                                            else:
+                                                global database
+                                                database = input("Please enter the database name: ")
+                                                connection = mysql.connector.connect(host=host,
+                                                                                     user=user,
+                                                                                     password=password,
+                                                                                     database=database)
+                                                mycursor = connection.cursor(buffered=True)
+                                                stop_to_repeat = False
+
+                                            num = False
+
+                                    except:
+                                        print("Please answer with a number 1 or 2!")
+                                        logging.error("An error with number input")
+
+                            if (connection):
+                                print("Connection successful")
+                                condition = False
+                                time_fun(1)
+                                return True
+
+            except:
+                print("Not connected")
+                logging.critical("The logging information was not correct")
+
+    else:
+        end_fun()
 
 
 def table_make():
@@ -191,11 +207,14 @@ def show_columns():
 
 def addition_to_table():
     try:
-        tableN = input("Please enter the name of the table:")
-        sqlform = "SHOW COLUMNS FROM " + tableN
+        tableN = input("Please enter the name of the table: ")
+        sqlform = "select column_name from information_schema.columns where table_schema =" + "\"" + database + "\"" + "and table_name =" + "\"" + tableN + "\""
         mycursor.execute(sqlform)
+        for tb in mycursor:
+            print(tb)
 
-        columnN = input("Please enter the name of the column, which you want to add the information: ")
+        columnN = input(
+            "Please enter the name of the column, which you want to add to the all columns: ")
 
         addition_text = input("Pleas enter what you want to add to the " + columnN + ": ")
 
@@ -206,6 +225,41 @@ def addition_to_table():
 
         mycursor.execute(sqlform)
         connection.commit()
+
+    # try:
+    #     tableN = input("Please enter the name of the table: ")
+    #     sqlform = "select column_name from information_schema.columns where table_schema =" + "\"" + database + "\"" + "and table_name =" + "\"" + tableN + "\""
+    #     mycursor.execute(sqlform)
+    #     colmns = []
+    #     i = 0
+    #     for tb in mycursor:
+    #         colmns[i].append(list(tb))
+    #         i = i + 1
+    #         print(tb)
+    #
+    #     columnN = input("Please enter the name of the column, which you want to add the information or all to add information to the all columns: ")
+    #
+    #     if columnN.casefold() == "all":
+    #         for cl in li:
+    #             columnN = li[cl]
+    #             addition_text = input("Pleas enter what you want to add to the " + columnN + ": ")
+    #
+    #             if addition_text.isdigit():
+    #                 sqlform = "INSERT INTO " + tableN + " (" + i + ")" + "VALUES" + "(" + addition_text + ")"
+    #             else:
+    #                 sqlform = "INSERT INTO " + tableN + " (" + i + ")" + "VALUES" + "(\"" + addition_text + "\")"
+    #
+    #     else:
+    #         addition_text = input("Pleas enter what you want to add to the " + columnN + ": ")
+    #
+    #         if addition_text.isdigit():
+    #             sqlform = "INSERT INTO " + tableN + " (" + columnN + ")" + "VALUES" + "(" + addition_text + ")"
+    #         else:
+    #             sqlform = "INSERT INTO " + tableN + " (" + columnN + ")" + "VALUES" + "(\"" + addition_text + "\")"
+    #
+    #
+    #     mycursor.execute(sqlform)
+    #     connection.commit()
 
     except:
         print("Please make sure that the input is correct!")
